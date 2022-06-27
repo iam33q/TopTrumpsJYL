@@ -16298,6 +16298,11 @@
   "RootNamespace": "WEEK7",
   "Documents": [
     {
+      "FilePath": "/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/HowToPlay.cshtml",
+      "TargetPath": "Views\\HelloWorld\\HowToPlay.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/CardView.cshtml",
       "TargetPath": "Views\\HelloWorld\\CardView.cshtml",
       "FileKind": "mvc"

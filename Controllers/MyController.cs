@@ -22,5 +22,8 @@ namespace WEEK7.Controllers
             Card.Create(cardName,CardTheme,cardValue);
             return RedirectToAction("CardView");
         }
+        public IActionResult HowToPlay(){
+            return View();
+        }
     }
 }
