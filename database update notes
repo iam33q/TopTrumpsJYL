@@ -1,0 +1,11 @@
+Updating a database in .net (not necessarily .net core):
+
+-Create new class extending IdentityUser
+-Update all references of IdentityUser to the new class
+-In NuGet package manager console:
+	Add-Migration [insert name of migration]
+-In Data/Migrations/[your migration]:
+	Check that migration works i.e. adds required fields
+-In NuGet package manager console:
+	Update-Database
+-Rebuild app
