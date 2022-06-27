@@ -5,22 +5,37 @@
 <div>
  <form asp-action="CreateCard" asp-controller="HelloWorld" class="form-inline-mbm">
     <div class="form-group">
-        <label for="cardName">Type in Card Name:</label>        <input class="form-control" type="text" name="cardName" />      
+        <label for="cardName"> Type in Card Name:</label>        <input class="form-control" type="text" name="cardName" />      
         <label for="cardTheme">Type in Card Theme:</label>      <input class="form-control" type="text" name="cardTheme" />      
         <label for="cardValue">Type in Card Value:</label>      <input class="form-control" type="number" name="cardValue" />   
         <input class="btn" type="submit" style="background-color: silver; border-radius: 5px; border-color: blue; border: 5px " value="Add New Card"/>
     </div>
 </form>
     <table>
-        @foreach( var item in Model )
-        {            
-            <thead><h2>@item.Theme</h2></thead>
-            @foreach(var card in item.CardSet){
-            <tr>
-                <td style="width:100px">@card.Name</td>
-                <td style="width:100px">@card.Value</td>
-            </tr>
-            }
+        <thead><h2>@Model[0].Theme</h2></thead>
+        @foreach(var card in Model[0].CardSet){
+        <tr>
+            <td style="width:100px">@card.Name</td>
+            <td style="width:100px">@card.Value</td>
+        </tr>
+        }
+    </table>
+    <table>
+        <thead><h2>@Model[1].Theme</h2></thead>
+        @foreach(var card in Model[1].CardSet){
+        <tr>
+            <td style="width:100px">@card.Name</td>
+            <td style="width:100px">@card.Value</td>
+        </tr>
+        }
+    </table>
+    <table>
+        <thead><h2>@Model[2].Theme</h2></thead>
+        @foreach(var card in Model[2].CardSet){
+        <tr>
+            <td style="width:100px">@card.Name</td>
+            <td style="width:100px">@card.Value</td>
+        </tr>
         }
     </table>
 </div>
