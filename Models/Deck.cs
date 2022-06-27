@@ -34,6 +34,7 @@ namespace WEEK7.Models
                 }
             }
         }
+        // Very Nice Way to set up some default decks
         public static Deck StarterDeck {get;set;} = new Deck("Deck Number 1",new List<Card>());
         public static Deck StarterDeck2 {get;set;} = new Deck("Deck Number 2",new List<Card>());
         public static Deck StarterDeck3 {get;set;} = new Deck("Deck Number 3",new List<Card>());

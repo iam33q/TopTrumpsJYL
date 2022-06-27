@@ -26,6 +26,7 @@ namespace WEEK7.Models
                 case "Deck Number 1": Deck.StarterDeck.CardSet.Add(newCard); break;
                 case "Deck Number 2": Deck.StarterDeck2.CardSet.Add(newCard); break;
                 case "Deck Number 3": Deck.StarterDeck3.CardSet.Add(newCard); break;
+                default: break; // Alert about invalid deck
             }
         }
         public static List<Card> getStarterDeck()
