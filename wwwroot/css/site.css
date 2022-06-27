@@ -16,3 +16,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+#cardContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+#cardContainer form{
+  display: flex;
+  background-color: azure;
+}
+#cardContainer input,select{
+  flex-grow: 1;
+  flex-direction: row;
+}
