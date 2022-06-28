@@ -10,34 +10,48 @@
     </div>
 </form>
 <div id="cardContainer">
-    <table class="cardTable">
-        <thead><h2>@Model[0].Theme</h2></thead>
-        @foreach(var card in Model[0].CardSet)
-        {
-        <tr>
-            <td style="width:100px">@card.Name</td>
-            <td style="width:100px">@card.Value</td>
-        </tr>
+    @{
+        try { // 
+        int n = Model.Capacity-1;
+        <div>
+            <table class="cardTable">
+                <thead><h2>@Model[0].Theme</h2>Number of Cards: @Model[0].NumberOfCards</thead>
+                    @foreach(var card in Model[0].CardSet)
+                    {
+                    <tr>
+                        <td style="width:100px">@card.Name</td>
+                        <td style="width:100px">@card.Value</td>
+                    </tr>
+                    }  
+            </table>
+        </div>
+        <div>
+            <table class="cardTable">
+                <thead><h2>@Model[1].Theme</h2>Number of Cards: @Model[1].NumberOfCards</thead>
+                    @foreach(var card in Model[1].CardSet)
+                    {
+                    <tr>
+                        <td style="width:100px">@card.Name</td>
+                        <td style="width:100px">@card.Value</td>
+                    </tr>
+                    }  
+            </table>               
+        </div>
+        <div>
+            <table class="cardTable">
+                <thead><h2>@Model[2].Theme</h2>Number of Cards: @Model[2].NumberOfCards</thead>
+                    @foreach(var card in Model[2].CardSet)
+                    {
+                    <tr>
+                        <td style="width:100px">@card.Name</td>
+                        <td style="width:100px">@card.Value</td>
+                    </tr>
+                    }  
+            </table>            
+        </div>
+
+            } catch(Exception e){
+            Console.Write(e);
         }
-    </table>
-    <table class="cardTable">
-        <thead><h2>@Model[1].Theme</h2></thead>
-        @foreach(var card in Model[1].CardSet)
-        {
-        <tr>
-            <td style="width:100px">@card.Name</td>
-            <td style="width:100px">@card.Value</td>
-        </tr>
-        }
-    </table>
-    <table class="cardTable">
-        <thead><h2>@Model[2].Theme</h2></thead>
-        @foreach(var card in Model[2].CardSet)
-        {
-        <tr>
-            <td style="width:100px">@card.Name</td>
-            <td style="width:100px">@card.Value</td>
-        </tr>
-        }
-    </table>
+    }
 </div>

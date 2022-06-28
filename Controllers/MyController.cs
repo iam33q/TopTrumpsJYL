@@ -5,7 +5,7 @@ using WEEK7.Models;
 namespace WEEK7.Controllers
 {
     public class HelloWorldController : Controller
-    {           
+    {
         bool decksLoaded = false;
         public IActionResult CardView()
         {   
@@ -21,6 +21,9 @@ namespace WEEK7.Controllers
         public IActionResult CreateCard(string cardName, string CardTheme, int cardValue){
             Card.Create(cardName,CardTheme,cardValue);
             return RedirectToAction("CardView");
+        }
+        public IActionResult HowToPlay(){
+            return View();
         }
     }
 }

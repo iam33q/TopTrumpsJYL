@@ -18,18 +18,25 @@ body {
 }
 table {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
+  border: 1px;
+  border-color: black;
 }
 #cardContainer{
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  overflow: scroll;
 }
 #cardContainer form{
   display: flex;
   background-color: azure;
 }
-#cardContainer input,select{
+#cardContainer tr{
+  flex-direction: column;
+}
+#cardContainer input,select,div{
   flex-grow: 1;
   flex-direction: row;
 }
