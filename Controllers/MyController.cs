@@ -5,7 +5,7 @@ using WEEK7.Models;
 namespace WEEK7.Controllers
 {
     public class HelloWorldController : Controller
-    {           
+    {
         bool decksLoaded = false;
         public IActionResult CardView()
         {   

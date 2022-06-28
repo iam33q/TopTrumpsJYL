@@ -18,15 +18,26 @@ namespace WEEK7.Models
 
         public static void Create(string cardName, string cardTheme, int cardValue)
         {
+
             var newCard = new Card(cardName, cardTheme, cardValue);
+            Deck selectedDeck = new Deck("Placeholder",new List<Card>());
+            bool cardPassed = false;
             newCard.Name = cardName;
             newCard.DeckTheme = cardTheme;
             newCard.Value = cardValue;
-            switch(cardTheme){
-                case "Deck Number 1": Deck.StarterDeck.CardSet.Add(newCard); break;
-                case "Deck Number 2": Deck.StarterDeck2.CardSet.Add(newCard); break;
-                case "Deck Number 3": Deck.StarterDeck3.CardSet.Add(newCard); break;
-                default: break; // Alert about invalid deck
+
+            foreach(var deck in Deck.ManyDecks){ // Parsing through each deck to check for valid deck theme
+                if(deck.Theme == newCard.DeckTheme){
+                    selectedDeck=deck;
+                    cardPassed = true;
+                }
+            }
+            if(cardPassed){ // Actually assigning the card to a deck according to its deck theme
+                selectedDeck.CardSet.Add(newCard);
+                selectedDeck.NumberOfCards++;
+                // Alert user of invalid deck name
+            } else {
+                //Alert user of successful card assignment to deck
             }
         }
         public static List<Card> getStarterDeck()

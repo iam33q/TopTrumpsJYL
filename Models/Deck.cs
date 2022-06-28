@@ -9,6 +9,7 @@ namespace WEEK7.Models
     public class Deck
     {
         public string Theme {get;set;} = "Theme 1";
+        public int NumberOfCards { get; set; } = 0;
         public List<Card> CardSet {get;set;} = new List<Card>();
 
         public Deck(string Theme, List<Card> CardSet){
@@ -21,6 +22,7 @@ namespace WEEK7.Models
                 if(item.Name == cardName){
                     System.Console.WriteLine(item.Name+" Card was removed from the deck.");
                     this.CardSet.Remove(item);
+                    this.NumberOfCards--;
                 }
             }
         }
