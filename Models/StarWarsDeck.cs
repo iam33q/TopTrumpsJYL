@@ -17,7 +17,7 @@ namespace WEEK7.Models
 
         public string[][] deck;
 
-        StarWarsDeck()
+        StarWarsDeck() // Locally stored Card data
         {
             attributeNames = new string[] { "Name", "Height(m)", "Combat Skills", "Force", "Dark Side", "Brains" };
             darthVader = new string[] { "Darth Vader", "2.02", "10", "9", "9", "7" };

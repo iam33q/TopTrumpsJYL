@@ -10,11 +10,11 @@ namespace WEEK7.Models
         public string Name { get; set; } = "Sample Card";
         public string DeckTheme { get; set; } = "Sample Deck";
         public int Value { get; set; } = 50;
-        public CardAttribute cardAttribuite_1;
-        public CardAttribute cardAttribuite_2;
-        public CardAttribute cardAttribuite_3;
-        public CardAttribute cardAttribuite_4;
-        public CardAttribute cardAttribuite_5;
+        public CardAttribute cardAttribute_1;
+        public CardAttribute cardAttribute_2;
+        public CardAttribute cardAttribute_3;
+        public CardAttribute cardAttribute_4;
+        public CardAttribute cardAttribute_5;
 
         public Card(string Name,string DeckTheme, int Value){
             this.Name = Name;
@@ -26,11 +26,11 @@ namespace WEEK7.Models
         {
             this.Name = Name;
             this.DeckTheme = DeckTheme;
-            this.cardAttribuite_1 = new CardAttribute(attribute_1Name,attribute_1Value);
-            this.cardAttribuite_2 = new CardAttribute(attribute_2Name,attribute_2Value);
-            this.cardAttribuite_3 = new CardAttribute(attribute_3Name,attribute_3Value);
-            this.cardAttribuite_4 = new CardAttribute(attribute_4Name,attribute_4Value);
-            this.cardAttribuite_5 = new CardAttribute(attribute_5Name,attribute_5Value);
+            this.cardAttribute_1 = new CardAttribute(attribute_1Name,attribute_1Value);
+            this.cardAttribute_2 = new CardAttribute(attribute_2Name,attribute_2Value);
+            this.cardAttribute_3 = new CardAttribute(attribute_3Name,attribute_3Value);
+            this.cardAttribute_4 = new CardAttribute(attribute_4Name,attribute_4Value);
+            this.cardAttribute_5 = new CardAttribute(attribute_5Name,attribute_5Value);
         }
 
         public static void Create(string cardName, string cardTheme, int cardValue)
