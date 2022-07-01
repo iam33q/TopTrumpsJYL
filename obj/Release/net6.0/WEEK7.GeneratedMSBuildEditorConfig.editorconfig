@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WEEK7
 build_property.RootNamespace = WEEK7
-build_property.ProjectDir = C:\Users\yasum\OneDrive\Documents\Yasum\Computing\TopTrumps\
+build_property.ProjectDir = C:\Users\Lewis (Guest)\Documents\GitHub\TopTrumpsJYL\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yasum\OneDrive\Documents\Yasum\Computing\TopTrumps
+build_property.MSBuildProjectDirectory = C:\Users\Lewis (Guest)\Documents\GitHub\TopTrumpsJYL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/HelloWorld/CardView.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/HelloWorld/CardView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxDYXJkVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/HelloWorld/HowToPlay.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/HelloWorld/HowToPlay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxIb3dUb1BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/Home/Index.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/Home/Privacy.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/Shared/Error.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/_ViewImports.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/_ViewStart.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yasum/OneDrive/Documents/Yasum/Computing/TopTrumps/Views/Shared/_Layout.cshtml]
+[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-39s2t9nccb
