@@ -11,9 +11,9 @@ namespace WEEK7.Models
         public bool goingFirst { get; set; }
         public int turnNumber {get; set; }
         
-        public chooseAttribute(Card card)
+        public chooseAttribute(int value)
     {
-        
+        value = this.value;
     }
             
     }
