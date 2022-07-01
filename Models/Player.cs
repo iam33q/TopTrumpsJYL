@@ -7,8 +7,14 @@ namespace WEEK7.Models
     }
     public class Player {
         public string playerName { get; set; }
-        public ArrayList<String> listOfCards { get; set}
-        public int score { get; set; }
+        public List<Card> cards { get; set; }
         public bool goingFirst { get; set; }
+        public int turnNumber {get; set; }
+        
+        public chooseAttribute(Card card)
+    {
+        
+    }
+            
     }
 }
