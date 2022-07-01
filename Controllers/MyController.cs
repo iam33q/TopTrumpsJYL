@@ -26,7 +26,6 @@ namespace WEEK7.Controllers
             
             return View("GamePage",Game1);
         }
-
         public IActionResult CreateCard(string cardName, string CardTheme, int cardValue){
             Card.Create(cardName,CardTheme,cardValue);
             return RedirectToAction("CardView");
@@ -34,6 +33,5 @@ namespace WEEK7.Controllers
         public IActionResult HowToPlay(){
             return View();
         }
-        
     }
 }

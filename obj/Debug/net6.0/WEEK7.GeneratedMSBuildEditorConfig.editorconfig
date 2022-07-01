@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WEEK7
 build_property.RootNamespace = WEEK7
-build_property.ProjectDir = C:\Users\Lewis (Guest)\Documents\GitHub\TopTrumpsJYL\
+build_property.ProjectDir = /home/iamaman/Documents/NOVUS/WEEK7/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Lewis (Guest)\Documents\GitHub\TopTrumpsJYL
+build_property.MSBuildProjectDirectory = /home/iamaman/Documents/NOVUS/WEEK7
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/HelloWorld/CardView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxDYXJkVmlldy5jc2h0bWw=
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/CardView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9DYXJkVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/HelloWorld/GamePage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxHYW1lUGFnZS5jc2h0bWw=
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/GamePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9HYW1lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/HelloWorld/HowToPlay.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxIb3dUb1BsYXkuY3NodG1s
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/HowToPlay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGVsbG9Xb3JsZC9Ib3dUb1BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Lewis (Guest)/Documents/GitHub/TopTrumpsJYL/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-39s2t9nccb
+[/home/iamaman/Documents/NOVUS/WEEK7/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-27zjj25noe

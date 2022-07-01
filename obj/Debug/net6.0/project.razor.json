@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/iamaman/Documents/NOVUS/WEEK7/Views/HelloWorld/GamePage.cshtml",
+      "TargetPath": "Views\\HelloWorld\\GamePage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/iamaman/Documents/NOVUS/WEEK7/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
