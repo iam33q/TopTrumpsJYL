@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 using WEEK7.Models;
+using WEEK7.Views.Shared;
 
 namespace WEEK7.Controllers
 {
@@ -18,6 +19,14 @@ namespace WEEK7.Controllers
             }
             return View("CardView",OurDecks);
         }
+        public IActionResult GamePage()
+        {   
+            var PlayerList = new List<Player>();
+            var Game1 = new Game(0,"NewGame",PlayerList);
+            
+            return View("GamePage",Game1);
+        }
+
         public IActionResult CreateCard(string cardName, string CardTheme, int cardValue){
             Card.Create(cardName,CardTheme,cardValue);
             return RedirectToAction("CardView");
@@ -25,5 +34,6 @@ namespace WEEK7.Controllers
         public IActionResult HowToPlay(){
             return View();
         }
+        
     }
 }

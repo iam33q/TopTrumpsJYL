@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models"
+    "\\Controllers",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Game",
+    "\\Views\\HelloWorld",
+    "\\Views\\Home",
+    "\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
+  "SelectedNode": "\\Controllers\\MyController.cs",
   "PreviewInSolutionExplorer": false
 }
